@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.form{
+    width: 386.007px;
+    height: 595.451px;
+    margin-left: 30px;
+}
+
+.login{
+    width: 100%;
+    height: 70%;
+    border: 1px solid hsl(0, 0%, 90%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+
+}
+
+.login img{
+    width: 30px;
+}
+
+.instagram{
+    width: 175px;
+    height: 51px;
+    background-image: url(./Instagram\ logo.png);
+    margin: 36px auto;
+}
+
+.login input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 10%;
+    outline: none;
+}
+
+.login button{
+    border:none;
+    background-color: #53bdeb;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 10%;
+    font-weight: 500;
+    
+}
+
+#leftline{
+    text-align: start;
+    width: 45%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: hsl(0, 0%, 85%);
+}
+
+#rightline{
+    text-align: end;
+    width: 45%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: hsl(0, 0%, 85%);
+}
+
+.or{
+    display:flex;
+    margin: 10px 0px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: center;
+    
+}
+
+.facebook-link img{
+    width: 18px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.facebook-link{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    /* color: #0064e0;56,81,133 */
+    color: rgb(56, 81,133);
+    font-weight: 500;
+}
+
+.forgot-password{
+    color: hsl(221, 41%, 30%);
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup{
+    height: 12%;
+    border: 1px solid hsl(0, 0%, 85%);
+    text-align: center;
+    padding-top:22px ;
+    margin-top: 10px;
+}
+
+.signup a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #53bdeb;
+}
+
+.download{
+    text-align: center;
+    margin-top: 20px;
+}
+.download #googleplay{
+    width: 134.28px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.download #microsoft{
+    width: 110.77px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.image {
+    width: 386.007px;
+    height: 595.451px;
+    background-color: blueviolet;
+    background-image: url("./instagramslide.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    word-spacing: 15px;
+}
+
+.links span{
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+}
+.links a{
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#copyrights{
+    color: #737373;
+    text-decoration: none;
+    font-size: 12px;
+}
+select{
+    border: none;
+    outline: none;
+    color: #737373;
+    font-size: 12px;
+}
+.links{
+    margin-bottom: 15px;
+}
